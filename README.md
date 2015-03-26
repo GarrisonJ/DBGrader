@@ -1,13 +1,13 @@
 - Step 0: Assign homework
 
-    Homework can consist of the following tasks:
+    Homework can consist of the following tasks:  
       1. Define views
          Example: Define a view that returns all agents from the agent table. Name the view q1.
 
-      2. Create tables / add rows to tables
+      2. Create tables / add rows to tables  
          Example: Create a table named "books" and insert at least 4 rows.
 
-      3. Modify database in such a way that a certain query produces a certain output.
+      3. Modify database in such a way that a certain query produces a certain output.  
          Example: Insert rows into the tables "books" and "authors" such that the following query is nonempty:
                   SELECT * FROM books NATURAL JOIN authors;
 
