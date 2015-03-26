@@ -1,6 +1,6 @@
-module Questions(questions, maxPoints, questionNames) where
+module DBGrader.Questions(questions, maxPoints, questionNames) where
 
-import Types
+import DBGrader.Types
 import Data.List
 
 -- Enter questions to be graded here

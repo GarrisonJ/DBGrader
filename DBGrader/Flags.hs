@@ -1,6 +1,6 @@
-module Flags(flags) where
+module DBGrader.Flags(flags) where
 
-import Types
+import DBGrader.Types
 
 -- Enter flags for grading here.
 -- Look in Types.hs for details.

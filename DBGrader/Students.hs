@@ -1,6 +1,6 @@
-module Students where
+module DBGrader.Students where
 
-import Types
+import DBGrader.Types
 
 students :: [Student]
 students = [ Student "McDonald, Ronald" "homeworkdb1"

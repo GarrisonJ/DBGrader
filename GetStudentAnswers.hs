@@ -2,10 +2,10 @@ import Database.HDBC
 import Database.HDBC.PostgreSQL
 import Control.Monad
 import Text.CSV
-import Types
-import Questions
-import Students
-import Config
+import DBGrader.Questions
+import DBGrader.Types
+import DBGrader.Config
+import DBGrader.Students
 
 main :: IO ()
 main = do

@@ -1,7 +1,7 @@
-module Config( connectInfoFromStudent
-             , summarySheetHeader) where
+module DBGrader.Config( connectInfoFromStudent
+                        , summarySheetHeader) where
 
-import Types
+import DBGrader.Types
 
 -- These credentials need to provide access to all student databases
 tahost, tauser, tapassword :: String

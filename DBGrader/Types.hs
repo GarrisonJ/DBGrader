@@ -1,4 +1,4 @@
-module Types where
+module DBGrader.Types where
 
 -- A view question asks a student to defined a view.
 -- Example:

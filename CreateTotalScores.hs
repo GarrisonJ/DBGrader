@@ -1,9 +1,9 @@
 import Text.CSV
 import Data.List
 import Data.Function
-import Flags
-import Questions
-import Types
+import DBGrader.Flags
+import DBGrader.Questions
+import DBGrader.Types
 
 -- CSV file to parse for grades. 
 -- The csv columns are as follows:
