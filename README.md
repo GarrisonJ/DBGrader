@@ -21,30 +21,31 @@
     Note: DBGrader/Types.hs has more information about defining values.
 
 - Step 2: Get student solutions from database
-
+    ```
     $ runhaskell GetStudentAnswers.hs > studentGrades.csv
-
+    ```
 - Step 3: Grade homework
 
     Grade homework by adding flags to the 'flags' column in studentGrades.csv
     Remeber to define flags in DBGrader/Flags.hs
 
 - Step 4: Calculate scores
-
+    ```
     $ runhaskell createtotalscores.hs > studentTotalScores.csv
-
+    ```
 - Step 5: Create a summary sheet for each student
 
     The following command will produce a summary sheet for each student. The
     sheets will be placed in the ./gradesheets folder.
-
+    ```
     $ runhaskell createSummarySheets.hs
-
+    ```
 - Step 6: Compile summary sheets to PDF
 
     Summary sheets are created in the markdown format. They should be compiled to
     pdf before sending them to students. If pandoc is installed you can compile them
     with the given makefile.
-
+    ```
     $ cd gradesheets
     $ make
+    ```
