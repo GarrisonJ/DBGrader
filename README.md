@@ -1,6 +1,7 @@
 - Step 0: Assign homework
 
     Homework can consist of the following tasks:  
+    
       1. Define views  
          Example: Define a view that returns all agents from the agent table. Name the view q1.
 
